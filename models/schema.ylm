@@ -1,6 +1,0 @@
-sources:
-    -name:raw_data_circle
-        tables:
-            -name:raw_gz_sales
-            -name:raw_gz_product
-            -name:raw_gz_ship
