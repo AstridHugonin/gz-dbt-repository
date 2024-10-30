@@ -50,3 +50,100 @@ sources:
              description: the cost of preparing the parcel in the distribution centre/warehouse
            - name: ship_cost
              description: shipping cost paid by Greenweez to the carrier/logistics provider
+      - name: adwords
+        identifier: raw_gz_adwords
+        columns:
+          - name: date_date
+            description: "Date de la campagne"
+            data_type: date
+          - name: paid_source
+            description: "Source de paiement pour la campagne"
+            data_type: string
+          - name: campaign_key
+            description: "Clé unique de la campagne"
+            data_type: string
+          - name: camPGN_name
+            description: "Nom de la campagne"
+            data_type: string
+          - name: ads_cost
+            description: "Coût des publicités"
+            data_type: string
+          - name: impression
+            description: "Nombre d'impressions de la publicité"
+            data_type: float
+          - name: click
+            description: "Nombre de clics sur la publicité"
+            data_type: float
+      - name: bing
+        identifier: raw_gz_bing
+        columns:
+          - name: date_date
+            description: "Date de la campagne"
+            data_type: date
+          - name: paid_source
+            description: "Source de paiement pour la campagne"
+            data_type: string
+          - name: campaign_key
+            description: "Clé unique de la campagne"
+            data_type: string
+          - name: camPGN_name
+            description: "Nom de la campagne"
+            data_type: string
+          - name: ads_cost
+            description: "Coût des publicités"
+            data_type: string
+          - name: impression
+            description: "Nombre d'impressions de la publicité"
+            data_type: float
+          - name: click
+            description: "Nombre de clics sur la publicité"
+            data_type: float
+      - name: criteo
+        identifier: raw_gz_criteo
+        columns:
+          - name: date_date
+            description: "Date de la campagne"
+            data_type: date
+          - name: paid_source
+            description: "Source de paiement pour la campagne"
+            data_type: string
+          - name: campaign_key
+            description: "Clé unique de la campagne"
+            data_type: string
+          - name: camPGN_name
+            description: "Nom de la campagne"
+            data_type: string
+          - name: ads_cost
+            description: "Coût des publicités"
+            data_type: string
+          - name: impression
+            description: "Nombre d'impressions de la publicité"
+            data_type: float
+          - name: click
+            description: "Nombre de clics sur la publicité"
+            data_type: float
+      - name: facebook
+        identifier: raw_gz_facebook
+        columns:
+          - name: date_date
+            description: "Date de la campagne"
+            data_type: date
+          - name: paid_source
+            description: "Source de paiement pour la campagne"
+            data_type: string
+          - name: campaign_key
+            description: "Clé unique de la campagne"
+            data_type: string
+          - name: camPGN_name
+            description: "Nom de la campagne"
+            data_type: string
+          - name: ads_cost
+            description: "Coût des publicités"
+            data_type: string
+          - name: impression
+            description: "Nombre d'impressions de la publicité"
+            data_type: float
+          - name: click
+            description: "Nombre de clics sur la publicité"
+            data_type: float
+
